@@ -1,0 +1,101 @@
+#googleLogo {
+    height: 210px;
+    width: 330px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -105px 0 0px -165px;
+}
+
+.searchBar {
+    width:540px;
+    position: absolute;
+    height: 40px;
+    top: 43%;
+    left: 50%;
+    margin: -20px 0px 0px -270px;
+    border: 0.5px solid lightgrey;
+    border-radius: 30px;
+}
+
+.searchBar:hover {
+    box-shadow: 0px 1px 2px 1px #dadada;
+}
+
+/*I cant change the blue border after I have clicked. I think I need Javascript to change that*/
+.searchBar:active {
+    outline: none;
+}
+
+.twobars {
+    position: fixed;
+    top: 50%;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    padding: 8px;
+}
+
+.twobars:hover {
+    border: 1px solid darkgrey;
+}
+
+#leftbar {
+    left: 40%;
+}
+
+#rightbar {
+    left: 50%;
+}
+
+ul {
+    margin: 0px;
+    padding: 10px 20px 0 0;
+}
+
+li {
+    float: right;
+    margin: 5px;
+}
+
+.Malaysia {
+    position: fixed;
+    top: 88%;
+    padding: 10px 0px 20px 6px;
+    border: 1px solid #F2F2F2;
+    border-right-width: 95vw;
+    background-color: #F2F2F2;
+}
+
+/*vw for viewport width & vh for viewport height*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-right-width: 74.8vw;
+    padding-bottom: 10px;
+    border-top: 1px solid #E4E4E4;
+}
+
+#right-footer {
+    overflow: hidden;
+}
+
+.right {
+    position: fixed;
+    left: 85%;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline black solid;
+}
+
+
