@@ -61,9 +61,10 @@ li {
 .Malaysia {
     position: fixed;
     top: 88%;
-    padding: 10px 0px 20px 6px;
+    left:0;
+    padding: 10px 0px 20px 0px;
     border: 1px solid #F2F2F2;
-    border-right-width: 95vw;
+    border-right-width: 99vw;
     background-color: #F2F2F2;
 }
 
